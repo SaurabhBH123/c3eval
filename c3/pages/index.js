@@ -10,7 +10,7 @@ export default function Home({profile}) {
     <div>
       <div>
         <h1>{profile.name}</h1>
-        <img src={profile.avatar_url} height="200px" width="200px"/>
+        <Image src={profile.avatar_url} alt="profilePic" height="200px" width="200px"/>
         <h2>{profile.bio}</h2>
         <button>Resume</button>
         <button>Follow</button>
